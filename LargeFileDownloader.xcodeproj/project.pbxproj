@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA125721F8BAF75008F77A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA125711F8BAF75008F77A8 /* main.m */; };
+		BEA125751F8BAF75008F77A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA125741F8BAF75008F77A8 /* AppDelegate.m */; };
+		BEA125781F8BAF75008F77A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA125771F8BAF75008F77A8 /* ViewController.m */; };
+		BEA1257B1F8BAF75008F77A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA125791F8BAF75008F77A8 /* Main.storyboard */; };
+		BEA1257D1F8BAF75008F77A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA1257C1F8BAF75008F77A8 /* Assets.xcassets */; };
+		BEA125801F8BAF75008F77A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA1257E1F8BAF75008F77A8 /* LaunchScreen.storyboard */; };
+		BEA1258B1F8BAF75008F77A8 /* Exam003Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA1258A1F8BAF75008F77A8 /* Exam003Tests.m */; };
+		BEA125961F8BAF75008F77A8 /* Exam003UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA125951F8BAF75008F77A8 /* Exam003UITests.m */; };
+		BEA125A61F8BAF87008F77A8 /* RSHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA125A51F8BAF87008F77A8 /* RSHttpClient.m */; };
+		BEA125A71F8BBC7C008F77A8 /* RSDataReceiverProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = BEA125A31F8BAF7F008F77A8 /* RSDataReceiverProtocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA125871F8BAF75008F77A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA125651F8BAF75008F77A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA1256C1F8BAF75008F77A8;
+			remoteInfo = Exam003;
+		};
+		BEA125921F8BAF75008F77A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA125651F8BAF75008F77A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA1256C1F8BAF75008F77A8;
+			remoteInfo = Exam003;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA1256D1F8BAF75008F77A8 /* LargeFileDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeFileDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA125711F8BAF75008F77A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA125731F8BAF75008F77A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA125741F8BAF75008F77A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA125761F8BAF75008F77A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEA125771F8BAF75008F77A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEA1257A1F8BAF75008F77A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA1257C1F8BAF75008F77A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA1257F1F8BAF75008F77A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA125811F8BAF75008F77A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA125861F8BAF75008F77A8 /* LargeFileDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LargeFileDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA1258A1F8BAF75008F77A8 /* Exam003Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exam003Tests.m; sourceTree = "<group>"; };
+		BEA1258C1F8BAF75008F77A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA125911F8BAF75008F77A8 /* LargeFileDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LargeFileDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA125951F8BAF75008F77A8 /* Exam003UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exam003UITests.m; sourceTree = "<group>"; };
+		BEA125971F8BAF75008F77A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA125A31F8BAF7F008F77A8 /* RSDataReceiverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDataReceiverProtocol.h; sourceTree = "<group>"; };
+		BEA125A41F8BAF87008F77A8 /* RSHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHttpClient.h; sourceTree = "<group>"; };
+		BEA125A51F8BAF87008F77A8 /* RSHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHttpClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA1256A1F8BAF75008F77A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA125831F8BAF75008F77A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1258E1F8BAF75008F77A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA125641F8BAF75008F77A8 = {
+			isa = PBXGroup;
+			children = (
+				BEA1256F1F8BAF75008F77A8 /* Exam003 */,
+				BEA125891F8BAF75008F77A8 /* Exam003Tests */,
+				BEA125941F8BAF75008F77A8 /* Exam003UITests */,
+				BEA1256E1F8BAF75008F77A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA1256E1F8BAF75008F77A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1256D1F8BAF75008F77A8 /* LargeFileDownloader.app */,
+				BEA125861F8BAF75008F77A8 /* LargeFileDownloaderTests.xctest */,
+				BEA125911F8BAF75008F77A8 /* LargeFileDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA1256F1F8BAF75008F77A8 /* Exam003 */ = {
+			isa = PBXGroup;
+			children = (
+				BEA125A31F8BAF7F008F77A8 /* RSDataReceiverProtocol.h */,
+				BEA125731F8BAF75008F77A8 /* AppDelegate.h */,
+				BEA125741F8BAF75008F77A8 /* AppDelegate.m */,
+				BEA125761F8BAF75008F77A8 /* ViewController.h */,
+				BEA125771F8BAF75008F77A8 /* ViewController.m */,
+				BEA125791F8BAF75008F77A8 /* Main.storyboard */,
+				BEA1257C1F8BAF75008F77A8 /* Assets.xcassets */,
+				BEA1257E1F8BAF75008F77A8 /* LaunchScreen.storyboard */,
+				BEA125811F8BAF75008F77A8 /* Info.plist */,
+				BEA125701F8BAF75008F77A8 /* Supporting Files */,
+			);
+			path = Exam003;
+			sourceTree = "<group>";
+		};
+		BEA125701F8BAF75008F77A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA125A41F8BAF87008F77A8 /* RSHttpClient.h */,
+				BEA125A51F8BAF87008F77A8 /* RSHttpClient.m */,
+				BEA125711F8BAF75008F77A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA125891F8BAF75008F77A8 /* Exam003Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1258A1F8BAF75008F77A8 /* Exam003Tests.m */,
+				BEA1258C1F8BAF75008F77A8 /* Info.plist */,
+			);
+			path = Exam003Tests;
+			sourceTree = "<group>";
+		};
+		BEA125941F8BAF75008F77A8 /* Exam003UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA125951F8BAF75008F77A8 /* Exam003UITests.m */,
+				BEA125971F8BAF75008F77A8 /* Info.plist */,
+			);
+			path = Exam003UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA1256C1F8BAF75008F77A8 /* LargeFileDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1259A1F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloader" */;
+			buildPhases = (
+				BEA125691F8BAF75008F77A8 /* Sources */,
+				BEA1256A1F8BAF75008F77A8 /* Frameworks */,
+				BEA1256B1F8BAF75008F77A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LargeFileDownloader;
+			productName = Exam003;
+			productReference = BEA1256D1F8BAF75008F77A8 /* LargeFileDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA125851F8BAF75008F77A8 /* LargeFileDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA1259D1F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloaderTests" */;
+			buildPhases = (
+				BEA125821F8BAF75008F77A8 /* Sources */,
+				BEA125831F8BAF75008F77A8 /* Frameworks */,
+				BEA125841F8BAF75008F77A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA125881F8BAF75008F77A8 /* PBXTargetDependency */,
+			);
+			name = LargeFileDownloaderTests;
+			productName = Exam003Tests;
+			productReference = BEA125861F8BAF75008F77A8 /* LargeFileDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA125901F8BAF75008F77A8 /* LargeFileDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA125A01F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloaderUITests" */;
+			buildPhases = (
+				BEA1258D1F8BAF75008F77A8 /* Sources */,
+				BEA1258E1F8BAF75008F77A8 /* Frameworks */,
+				BEA1258F1F8BAF75008F77A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA125931F8BAF75008F77A8 /* PBXTargetDependency */,
+			);
+			name = LargeFileDownloaderUITests;
+			productName = Exam003UITests;
+			productReference = BEA125911F8BAF75008F77A8 /* LargeFileDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA125651F8BAF75008F77A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mostafizur Rahman";
+				TargetAttributes = {
+					BEA1256C1F8BAF75008F77A8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = W7CT22M8UH;
+						ProvisioningStyle = Automatic;
+					};
+					BEA125851F8BAF75008F77A8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA1256C1F8BAF75008F77A8;
+					};
+					BEA125901F8BAF75008F77A8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA1256C1F8BAF75008F77A8;
+					};
+				};
+			};
+			buildConfigurationList = BEA125681F8BAF75008F77A8 /* Build configuration list for PBXProject "LargeFileDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA125641F8BAF75008F77A8;
+			productRefGroup = BEA1256E1F8BAF75008F77A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA1256C1F8BAF75008F77A8 /* LargeFileDownloader */,
+				BEA125851F8BAF75008F77A8 /* LargeFileDownloaderTests */,
+				BEA125901F8BAF75008F77A8 /* LargeFileDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA1256B1F8BAF75008F77A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA125801F8BAF75008F77A8 /* LaunchScreen.storyboard in Resources */,
+				BEA1257D1F8BAF75008F77A8 /* Assets.xcassets in Resources */,
+				BEA1257B1F8BAF75008F77A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA125841F8BAF75008F77A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1258F1F8BAF75008F77A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA125691F8BAF75008F77A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA125781F8BAF75008F77A8 /* ViewController.m in Sources */,
+				BEA125A61F8BAF87008F77A8 /* RSHttpClient.m in Sources */,
+				BEA125A71F8BBC7C008F77A8 /* RSDataReceiverProtocol.h in Sources */,
+				BEA125751F8BAF75008F77A8 /* AppDelegate.m in Sources */,
+				BEA125721F8BAF75008F77A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA125821F8BAF75008F77A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA1258B1F8BAF75008F77A8 /* Exam003Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA1258D1F8BAF75008F77A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA125961F8BAF75008F77A8 /* Exam003UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA125881F8BAF75008F77A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA1256C1F8BAF75008F77A8 /* LargeFileDownloader */;
+			targetProxy = BEA125871F8BAF75008F77A8 /* PBXContainerItemProxy */;
+		};
+		BEA125931F8BAF75008F77A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA1256C1F8BAF75008F77A8 /* LargeFileDownloader */;
+			targetProxy = BEA125921F8BAF75008F77A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA125791F8BAF75008F77A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA1257A1F8BAF75008F77A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA1257E1F8BAF75008F77A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA1257F1F8BAF75008F77A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA125981F8BAF75008F77A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA125991F8BAF75008F77A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA1259B1F8BAF75008F77A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7CT22M8UH;
+				INFOPLIST_FILE = Exam003/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEA1259C1F8BAF75008F77A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7CT22M8UH;
+				INFOPLIST_FILE = Exam003/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEA1259E1F8BAF75008F77A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Exam003Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LargeFileDownloader.app/LargeFileDownloader";
+			};
+			name = Debug;
+		};
+		BEA1259F1F8BAF75008F77A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Exam003Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LargeFileDownloader.app/LargeFileDownloader";
+			};
+			name = Release;
+		};
+		BEA125A11F8BAF75008F77A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Exam003UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Exam003;
+			};
+			name = Debug;
+		};
+		BEA125A21F8BAF75008F77A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Exam003UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipvision.Exam003UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Exam003;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA125681F8BAF75008F77A8 /* Build configuration list for PBXProject "LargeFileDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA125981F8BAF75008F77A8 /* Debug */,
+				BEA125991F8BAF75008F77A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1259A1F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1259B1F8BAF75008F77A8 /* Debug */,
+				BEA1259C1F8BAF75008F77A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA1259D1F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA1259E1F8BAF75008F77A8 /* Debug */,
+				BEA1259F1F8BAF75008F77A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA125A01F8BAF75008F77A8 /* Build configuration list for PBXNativeTarget "LargeFileDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA125A11F8BAF75008F77A8 /* Debug */,
+				BEA125A21F8BAF75008F77A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA125651F8BAF75008F77A8 /* Project object */;
+}
